@@ -1,5 +1,5 @@
 import React from 'react'
-import {Navigate, Route, Routes} from "react-router-dom";
+import {Route, Routes} from "react-router-dom";
 import {Login} from "../components/login/Login";
 import {Registration} from "../components/registration/Registration";
 import {Profile} from "../components/profile/Profile";
@@ -7,7 +7,6 @@ import {RecoveryPassword} from "../components/recoveryPassword/RecoveryPassword"
 import {NewPassword} from "../components/newPassword/NewPassword";
 import {Error404} from "../components/error404/Error404";
 import {SuperComponents} from "../components/superComponents/SuperComponents";
-import App from "../App";
 
 export const RoutesComponent = () => {
     return (
