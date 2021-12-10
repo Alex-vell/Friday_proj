@@ -1,5 +1,18 @@
 .headerCont {
     display: flex;
-    flex-direction: column;
-    width: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+    margin: 10px 10px 50px 10px;
+}
+
+.item a {
+    text-decoration: none;
+    color: #666666;
+    font-size: large;
+    font-weight: 500;
+}
+
+.item a:active {
+    color: #D8093A;
 }

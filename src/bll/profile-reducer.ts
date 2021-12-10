@@ -7,7 +7,7 @@ const initialState = {
 
 }
 
-export const appReducer = (state: InitialStateType = initialState, action: ActionTypes): InitialStateType => {
+export const profileReducer = (state: InitialStateType = initialState, action: ActionTypes): InitialStateType => {
   switch (action.type) {
       case "NEW":
           return {state}
